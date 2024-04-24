@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles\style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Logotip</div>
+        <ul class="list">
+            <li class="list__item"><a class="list__link" chref="#">Главная</a>
+                <ul class="drop__list">
+                    <li class="drop__list__item"><a class="drop__list__link" href="#">text</a></li>
+                    <li class="drop__list__item"><a class="drop__list__link" href="#">text</a></li>
+                    <li class="drop__list__item"><a class="drop__list__link" href="#">text</a></li>
+                </ul>
+            </li>
+            <li class="list__item"><a class="list__link" chref="#">Продукт</a></li>
+            <li class="list__item"><a class="list__link" chref="#">Контакты</a></li>
+
+        </ul>
+    </header>
+    <div class="content">
+        <h1>Наши продукты</h1>
+        <div class="bosh__first">
+            <div class="card">
+                <a class="bosh_first_link" href="">Ваш текст
+                </a>
+            </div>
+            <div class="card"> Ваш текст </div>
+            <div class="card"> Ваш текст </div>
+            <div class="card"> Ваш текст </div>
+            <div class="card"> Ваш текст </div>
+            <div class="card"> Ваш текст </div>
+            <div class="card"> Ваш текст </div>
+        </div>
+        <div class="bosh__second">
+            <h2>Комплектующие</h2>
+            <div class="second__card">Ваш текст</div>
+            <div class="second__card">Ваш текст</div>
+            <div class="second__card">Ваш текст</div>
+            <div class="second__card">Ваш текст</div>
+            <div class="second__card">Ваш текст</div>
+        </div>
+    </div>
+    <footer id="footer">
+        <form action="#" method="post" id="registration">
+            <div class="fields_form_registr">
+                <h2>Registration</h2>
+
+                <div class="group"><label for="name_field">Name</label>
+                    <input type="text" id="name_field" name="name" value="" required>
+                </div>
+                <div class="group"> <label for="surname_field">Surname</label>
+                    <input type="text" id="surname_field" name="surname" value="" required>
+                </div>
+                <div class="group"> <label for="mail_field">Mail</label>
+                    <input type="email" id="mail_field" name="mail" value="" required>
+                </div>
+                <div class="group"> <label for="password_field">Password</label>
+                    <input type="password" id="password_field" name="pass" value="" required>
+                </div>
+                <div class="group"> <label for="password-check">Password-check</label>
+                    <input type="password" id="password-check" name="check-pass" value="" required>
+                </div>
+                <h3>Are you a Man or a Woman</h3>
+                <div class="button_s">
+                    <div class="gender">
+                        <input type="radio" id="man" name="gender" value="man" />
+                        <label for="man">Man</label>
+                        <input type="radio" id="woman" name="gender" value="vomen">
+                        <label for="woman">Woman</label>
+                    </div>
+
+                    <div class="election">
+                        <input type="checkbox" id="positive" name="election" checked />
+                        <label for="positive">Consent to data processing</label>
+                    </div>
+                </div>
+
+                <div class="battons_register_form">
+                    <button type="submit" form="registration">send</button>
+                    <button type="reset" form="registration">reset</button>
+                </div>
+
+            </div>
+        </form>
+    </footer>
+
+
+</body>
+
+</html>
